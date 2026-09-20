@@ -1,0 +1,32 @@
+aws-financial-ai-platform
+│
+├── README.md
+│
+├── docs
+│   ├── 01_requirements.md
+│   ├── 02_basic_design.md
+│   ├── 03_detailed_design.md
+│   ├── 04_operation_design.md
+│   └── 05_incident_response.md
+│
+├── diagrams
+│   ├── system_architecture.png
+│   ├── network_architecture.png
+│   └── monitoring_architecture.png
+│
+├── terraform
+│   ├── modules
+│   ├── environments
+│   └── README.md
+│
+├── datadog
+│   └── monitoring.md
+│
+├── ai
+│   ├── rag_architecture.md
+│   └── README.md
+│
+└── screenshots
+    ├── aws
+    ├── datadog
+    └── ai
