@@ -30,3 +30,18 @@ aws-financial-ai-platform
     ├── aws
     ├── datadog
     └── ai
+
+
+
+Network Design
+
+VPC
+  CIDR: 10.0.0.0/16
+
+├── Public Subnet
+│     CIDR: 10.0.1.0/24
+│     AZ: ap-northeast-1a
+│
+└── Private Subnet
+      CIDR: 10.0.11.0/24
+      AZ: ap-northeast-1a
