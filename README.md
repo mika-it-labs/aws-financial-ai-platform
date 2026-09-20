@@ -1,4 +1,4 @@
-# AWS Financial AI Platform
+# 「AWS金融系システムを想定したインフラ基盤・監視・AI活用環境の設計構築」
 
 ## 概要
 
