@@ -45,6 +45,22 @@ AWS基盤の設計・構築、ネットワーク、監視、障害対応、運�
 
 AWS東京リージョン（ap-northeast-1）に金融系システムを想定したVPCを構築しました。
 
+## ネットワーク構成図
+
+[![AWS Financial AI Platform Network Architecture](diagrams/network-architecture.png)](diagrams/network-architecture.png)
+
+```text
+financial-ai-vpc
+10.0.0.0/16
+
+├── Public Subnet
+│   └── financial-web-server
+│       ├── Amazon Linux 2023
+│       ├── Apache HTTP Server
+│       └── AWS Systems Manager
+│
+└── Private Subnet
+    └── 将来のバックエンド配置を想定
 ```text
 financial-ai-vpc
 10.0.0.0/16
